@@ -1,84 +1,92 @@
-# Student Management Database (SQL)
+# Student Management Database & Course Performance Analysis (SQL)
 
-##  Project Overview
+## Project Overview
 
-This project was developed as part of my **Data Analysis with SQL Internship** at **Sumerix Global**.
+This repository contains SQL projects developed as part of my **Data Analysis with SQL Internship at Sumerix Global**.
 
-The project demonstrates the creation and management of a Student Management Database using MySQL. It covers database creation, table creation, data insertion, data retrieval, aggregation, filtering, and updating records using SQL queries.
-
----
-
-##  Objectives
-
-* Create a Student Management Database
-* Store student information efficiently
-* Perform SQL operations on student records
-* Analyze student performance using SQL queries
+The repository demonstrates practical use of MySQL for database creation, data management, querying, aggregation, filtering, updating records, and analysing student and course performance data.
 
 ---
 
-##  Technologies Used
+## Task 1: Student Management Database
 
-* MySQL
-* MySQL Workbench
-* SQL
+The first task focuses on designing and managing a Student Management Database using MySQL.
 
----
+### Key Operations
 
-##  Database Structure
+- Database creation and selection
+- Table creation
+- Student data insertion
+- Data retrieval using SELECT queries
+- Filtering records using WHERE conditions
+- Updating student records
+- Performing aggregate calculations
+- Analysing student performance
 
-The Students table contains the following fields:
+### Task 1 Files
 
-* StudentID
-* Name
-* Gender
-* Age
-* Grade
-* MathScore
-* ScienceScore
-* EnglishScore
-
----
-
-##  SQL Operations Performed
-
-* Create Database
-* Create Table
-* Insert Records
-* Display Records
-* Calculate Average Scores
-* Find Top Performer
-* Count Students Grade-wise
-* Calculate Average Score by Gender
-* Filter Students using WHERE clause
-* Update Student Records
+- `student_management.sql`
+- `screenshots/Task-1/`
 
 ---
 
-##  Project Screenshots
+## Task 2: Course Performance Analysis
 
-Screenshots of SQL queries and outputs are available in the **screenshots** folder.
+The second task focuses on analysing student course performance using SQL queries.
+
+### Analysis Performed
+
+- Average score calculation
+- Identification of top-performing students
+- Grade-wise student count
+- Average score analysis by gender
+- Identification of students scoring above 80 in Mathematics
+- Updating student grades based on performance
+- Filtering and analysing course performance data
+
+### Task 2 Files
+
+- `task2_course_performance_analysis.sql`
+- `screenshots/Task-2/`
 
 ---
 
-##  Learning Outcomes
+## Technologies Used
 
-Through this project, I gained practical experience in:
-
-* Database Design
-* SQL Query Writing
-* Data Retrieval
-* Aggregate Functions
-* Filtering and Sorting
-* Updating Database Records
+- MySQL
+- MySQL Workbench
+- SQL
+- GitHub
 
 ---
 
-##  Author
+## Repository Structure
+
+Student_Management_Database_SQL/
+- student_management.sql
+- task2_course_performance_analysis.sql
+- screenshots/
+  - Task-1/
+  - Task-2/
+- README.md
+
+---
+
+## Skills Demonstrated
+
+- Database Design
+- SQL Query Writing
+- Data Retrieval and Filtering
+- Aggregate Functions
+- Data Analysis
+- Database Management
+- Version Control and Project Documentation
+
+---
+
+## Author
 
 **Urvashi Gurjar**
 
-Data Analysis with SQL Internship
-
-Sumerix Global
-
+B.Tech Computer Science and Engineering  
+Specialization in AI Analytics
